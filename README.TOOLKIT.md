@@ -10,7 +10,7 @@ A "SAM" (serverless application model) project is a project that contains a temp
 
 <br />
 
-The code for this application will differ based on the runtime, but the path to a handler can be found in the [`template.yaml`](./template.yaml) file through a resource's `CodeUri` and `Handler` fields.
+The code for this application will differ based on the runtime, but the path to a handler can be found in the [`template.yaml`](template.yaml) file through a resource's `CodeUri` and `Handler` fields.
 
 AWS Toolkit For Visual Studio Code supports local debugging for serverless applications through VS Code's debugger. Since this application was created by the AWS Toolkit, launch configurations for all included handlers have been generated and can be found in the menu next to the Run button:
 
@@ -21,7 +21,7 @@ You can debug the Lambda handlers locally by adding a breakpoint to the source f
 
 Invocation parameters, including payloads and request parameters, can be edited by either using the `SAM Debug Configuration Editor` (through the Command Palette or CodeLens) or by editing the `launch.json` file.
 
-AWS Lambda functions not defined in the [`template.yaml`](./template.yaml) file can be invoked and debugged by creating a launch configuration through the CodeLens over the function declaration, or with the `Add SAM Debug Configuration` command.
+AWS Lambda functions not defined in the [`template.yaml`](template.yaml) file can be invoked and debugged by creating a launch configuration through the CodeLens over the function declaration, or with the `Add SAM Debug Configuration` command.
 
 <br />
 
